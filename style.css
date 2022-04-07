@@ -1,0 +1,33 @@
+.box{
+	transition: 0.2s;
+}
+
+.box:hover{
+	background: #9ad0ff;
+	cursor:pointer;
+	box-shadow:0 20px 30px 5px rgba(0,0,0,.20);
+	transition: 0.2s;
+	color:#0f5693;
+	padding:30px;
+}
+*::selection{
+	background: #383838;
+	border-radius: 20px;
+	color:white;
+	text-decoration: underline;
+}
+.card{
+	width:250px;
+	display:inline-block;
+	height:400px;
+	margin-top:10px;
+	transition: 0.5s;
+}
+.card:hover{
+	background: #52df21;
+	color:white;
+	padding:10px;
+
+	box-shadow:0 -10px 30px 5px rgba(0,0,0,.20);
+	transition: 0.2s;
+}
